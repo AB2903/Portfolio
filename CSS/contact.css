@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar{
+    width: 70px;
+    background-color: #111010;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px;
+    transition: width 0.3s ease;
+}
+
+.sidebar:hover{
+    width: 170px;
+}
+
+.sidebar h3{
+    text-align: center;
+    font-size: 29px;
+    margin-left: -10px;    
+    color: aqua;
+}
+
+.sidebar li i{
+    color: aqua;
+}
+
+.sidebar li{
+    display: flex;
+    list-style: none;
+    margin: 10px 0;
+    padding: 6px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+}
+.sidebar li:hover{
+    background-color: #444444;
+}
+
+.sidebar a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: aqua;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.sidebar:hover a{
+    opacity: 1;
+}
+
+main{
+    flex: 1;
+    background-image: url('../IMG/bg-image.avif');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+main h1{
+    font-size: 70px;
+    color: #fff;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 290px;
+    width: 350px;
+    background-color: #0cbad1;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: transform 0.3s ease;
+}
+.first:hover{
+    transform: scale(1.2);
+}
+
+.form-class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-class h3{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.form-class input, textarea{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.form-class button{
+    cursor: pointer;
+    width: 100px;
+    font-weight: bolder;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;    
+    border: none;
+}
+.form-class button:hover{
+    background-color: greenyellow;
+}
+
+::placeholder{
+    font-weight: 600;
+    color: black;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 290px;
+    width: 350px;
+    gap: 40px;
+    background-color: #0cbad1;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: transform 0.3s ease;
+}
+.info:hover{
+    transform: scale(1.2);
+}
+
+.info ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.info ul li{
+    font-size: 20px;
+}
+
+.info ul li i{
+    margin-right: 10px;
+}
+
+.info ul li a{
+    text-decoration: none;
+    color: #000 ;
+}
+.info ul li:hover{
+    color: #fff;
+}
+.info ul a:hover{
+    color: #fff;
+}
+
+.info h3{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.popup{
+    width: 350px;
+    height: 200px;
+    transform: translate(50%,-50%);
+    position: absolute;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 15px;
+}
+.hidden{
+    display: none;
+}
+.popup p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+.popup button{
+    padding: 8px;
+    border-radius: 14px;
+    width: 70px;
+    cursor: pointer;
+    background-color: ghostwhite;
+}
+.popup button:hover{
+    background-color: red;
+}

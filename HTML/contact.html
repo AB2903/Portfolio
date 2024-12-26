@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>CONTACT</title>
+</head>
+<body>
+    <aside class="sidebar">
+        <h3>A.B</h3>
+        <nav>
+            <ul>
+                <li><i class="fa-solid fa-house"></i><a href="./acceuil.html">Acceuil</a></li>
+                <li><i class="fa-solid fa-laptop-code"></i><a href="./competences.html">Compétences</a></li>
+                <li><i class="fa-solid fa-address-book"></i><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="contact">
+            <ul>
+                <li><i class="fa-solid fa-envelope"></i><a href="mailto:baroyel3@gmail.com" target="_blank">MAIL</a></li>
+                <li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/776875267" target="_blank">WATHSAPP</a></li>
+                <li><i class="fa-brands fa-github"></i><a href="https://github.com/AB2903" target="_blank">GITHUB</a></li>
+            </ul>
+        </div>
+    </aside>
+    <main>
+        <h1>Vous pouvez me contacter ici !!!!</h1>
+        <section class="first">
+            <form id="form" class="form-class">
+                <h3>Par le formulaire !!!</h3>
+                <input type="text" id="prenom" placeholder="Saisir votre prénom" required>
+                <input type="text" id="nom" placeholder="Saisir votre nom" required>
+                <input type="email" id="email" placeholder="Saisir votre adresse mail" required>
+                <textarea id="area" placeholder="Entrez votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+            <div id="popup" class="popup hidden">
+                <p>Votre formulaire a été envoyé avec succès.</p>
+                <button id="btn1">Annuler</button>
+            </div>
+        </section>
+        <section class="info">
+            <h3>Mes réseaux !!!</h3>
+            <ul>
+                <li><i class="fa-solid fa-envelope"></i><a href="mailto:baroyel3@gmail.com" target="_blank">MAIL</a></li>
+                <li style="margin-left: 70px;"><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/776875267" target="_blank">WATHSAPP</a></li>
+                <li style="margin-left: 180px;"><i class="fa-brands fa-github"></i><a href="https://github.com/AB2903" target="_blank">GITHUB</a></li>
+            </ul>
+        </section>
+    </main>
+
+
+    <script src="../JS/contact.js"></script>
+</body>
+</html>

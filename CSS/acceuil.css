@@ -63,7 +63,7 @@ body{
 
 main{
     flex: 1;
-    background-color: #211f1f;
+    background-image: url('../IMG/bg-image.avif');
     display: flex;
     align-items: center;
 }
