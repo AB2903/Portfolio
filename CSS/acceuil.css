@@ -64,19 +64,79 @@ body{
 main{
     flex: 1;
     background-image: url('../IMG/bg-image.avif');
-    display: flex;
-    align-items: center;
 }
 
 main h1{
     color: #fff;
-    padding: 40px;
+    padding: 20px;
 }   
 
 main img{
-    width: 600px;
-    height: 500px;
-    margin-top: -80px;
-    margin-right: -50px;
+    width: 300px;
+    height: 230px;
+    border-radius: 67px;
+    position: absolute;
+    bottom: 10px;
+    left: 520px;
+    transition: transform 0.3s ease;
+}
+main img:hover{
+    transform: scale(1.2);
+}
+
+#cv button{
+    background-color: beige;
+    position: absolute;
+    top: 20px;
+    right: 23px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    transition: trasform 0.3s ease;
+}
+#cv button:hover{
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
+
+.info{
+    display: flex;
+}
+
+.formation{
+    background-color: rgb(68, 68, 68, 0.5);
+    width: 560px;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 26px;
+    transition: transform 0.3s ease;
+}
+
+.formation:hover{
+    transform: scale(1.1);
+}
+
+.formation h2{
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-size: 30px;
+    color: #fff;
+}
+
+.formation ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.formation strong{
+    font-size: 20px;
+    color: #fff;
+}
+.formation span{
+    color: #000;
 }
 
