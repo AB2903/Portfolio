@@ -10,6 +10,10 @@ body{
     overflow: hidden;
 }
 
+.page{
+    background-color: rgb(51, 74, 74);
+}
+
 .sidebar{
     width: 70px;
     background-color: #111010;
@@ -47,7 +51,7 @@ body{
     font-size: 17px;
 }
 .sidebar li:hover{
-    background-color: #444444;
+    background-color: rgb(51, 74, 74);
 }
 
 .sidebar a{
@@ -76,7 +80,7 @@ main img{
     height: 230px;
     border-radius: 67px;
     position: absolute;
-    bottom: 10px;
+    bottom: 6px;
     left: 520px;
     transition: transform 0.3s ease;
 }
@@ -108,7 +112,7 @@ main img:hover{
 
 .formation{
     background-color: rgb(68, 68, 68, 0.5);
-    width: 560px;
+    width: 520px;
     margin-left: 30px;
     padding: 20px;
     border-radius: 26px;
@@ -140,3 +144,12 @@ main img:hover{
     color: #000;
 }
 
+.liens{
+    margin-left: 50px;
+}
+
+.liens li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e6c5c5;
+}

@@ -10,6 +10,10 @@ body{
     overflow: hidden;
 }
 
+.page{
+    background-color: rgb(51, 74, 74);
+}
+
 .sidebar{
     width: 70px;
     background-color: #111010;
@@ -47,7 +51,7 @@ body{
     font-size: 17px;
 }
 .sidebar li:hover{
-    background-color: #444444;
+    background-color: rgb(51, 74, 74);
 }
 
 .sidebar a{
