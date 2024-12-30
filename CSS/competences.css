@@ -93,7 +93,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .first{
@@ -151,6 +151,11 @@ main{
 .boostrap{
     width: 40%;
     background-color: red;  
+}
+
+.sass{
+    width: 70%;
+    background-color: red;
 }
 
 .next{
