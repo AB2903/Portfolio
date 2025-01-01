@@ -83,6 +83,7 @@ main img{
     bottom: 6px;
     left: 520px;
     transition: transform 0.3s ease;
+    /* object-fit:cover; */
 }
 main img:hover{
     transform: scale(1.2);
@@ -136,6 +137,7 @@ main img:hover{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    list-style: none;
 }
 .formation strong{
     font-size: 20px;
@@ -146,7 +148,7 @@ main img:hover{
 }
 
 .liens{
-    margin-left: 50px;
+    margin-left: 15px;
 }
 
 .liens li a{
